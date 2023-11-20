@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Inheritance;
 
-/**
- *
- * @author PC
- */
 public class VideoCard {
+    
+     String videoCard;
+    
+    public VideoCard(String videoCard){
+        this.videoCard = videoCard;
+    }
+    
+    
+    void nice(){
+        System.out.println(videoCard +" is very nice");
+    }
+    void expensive(){
+        System.out.println(videoCard +" is expensive");
+    }
     
 }

@@ -10,4 +10,11 @@ package Inheritance;
  */
 public class Main {
     
+    public static void main(String[] args) {
+        RTX3060 myVideoCard = new RTX3060("BrandNewGPU");
+        
+        myVideoCard.broke();
+        myVideoCard.expensive();
+        myVideoCard.nice();
+    }
 }

@@ -4,10 +4,16 @@
  */
 package Inheritance;
 
-/**
- *
- * @author PC
- */
-public class RTX3060 {
     
+    public class RTX3060 extends VideoCard {
+    
+     RTX3060(String videoCard) {
+        super(videoCard);
+
+    }
+
+    void broke() {
+        System.out.println(videoCard + " is broken");
+
+    }
 }
