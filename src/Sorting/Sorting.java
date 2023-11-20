@@ -24,7 +24,7 @@ public class Sorting {
         
     }
     public static void main(String [] args){
-        int [] array = {9,7,8,15,3,2};
+        int [] array = {6,7,8,15,3,9};
         Sorting Sorter = new Sorting(array);
         Sorter.OriginalArray();
         Sorter.sortArray();
