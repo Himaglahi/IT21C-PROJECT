@@ -15,7 +15,7 @@ public class Main {
    Student student = new Student();
     student.setName("Mj Magsalos");
      student.setSection("it21C");
-     student.setMotto("Be your self");
+     student.setMotto("Happiness is not by Chance but by Choice ");
     
     
     
